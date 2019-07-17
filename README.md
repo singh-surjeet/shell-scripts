@@ -1,2 +1,2 @@
 # shell-scripts
-Useful shell script
+Useful shell scripts
