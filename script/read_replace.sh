@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-inputFile=resources/input.txt
-outputFile=resources/output.txt
+inputFile=../resources/input.txt
+outputFile=../resources/output.txt
 while read line; 
 do
     echo "read from file - $line"
