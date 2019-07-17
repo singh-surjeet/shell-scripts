@@ -14,7 +14,7 @@ if [ $2 ]
         outputFile=$2
 fi
     
-while IFS="=" read -r line; 
+while IFS='' read line; 
 do
     echo "read from file - $line"
     sed -i '' "s/{{to_be_replaced}}/$line/g" $outputFile

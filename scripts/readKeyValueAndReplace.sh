@@ -2,7 +2,7 @@
 set -e
 
 inputFile=../resources/app.properties
-outputFile=../resources/output.txt 
+outputFile=../resources/output.properties 
 
 if [ $1 ]
     then
