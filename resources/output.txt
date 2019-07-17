@@ -1,1 +1,2 @@
-key_name={{to_be_replaced}}
+key_name_1={{key1}}
+key_name_2={{key2}}

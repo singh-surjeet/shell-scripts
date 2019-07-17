@@ -1,2 +1,2 @@
-XXXXXXYYYY
-adlsfkjaldjkf
+value1=XXXXXXYYYY
+valu2=adlsfkjaldjkf

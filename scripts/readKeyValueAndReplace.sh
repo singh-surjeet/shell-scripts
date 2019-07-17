@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-inputFile=../resources/input.txt
+inputFile=../resources/app.properties
 outputFile=../resources/output.txt 
 
 if [ $1 ]
@@ -14,10 +14,10 @@ if [ $2 ]
         outputFile=$2
 fi
     
-while IFS="=" read -r line; 
+while IFS="=" read -r key value; 
 do
-    echo "read from file - $line"
-    sed -i '' "s/{{to_be_replaced}}/$line/g" $outputFile
+    echo "key is - $key value is - $value"
+    sed -i '' "s/{{$key}}/$value/g" $outputFile
 done < $inputFile
 
 cat $outputFile
